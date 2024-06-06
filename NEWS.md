@@ -1,4 +1,31 @@
 
+# dreamlet 1.2.1
+ - June 6, 2024
+ - bump Bioc version
+
+# dreamlet 1.1.24
+ - May 28, 2024
+ - `dreamlet()` gives clearer error message for singular design matrix
+ - `plotGeneHeatmap()` handles `zmax` correctly now
+
+# dreamlet 1.1.23
+ - May 16, 2024
+ - `processOneAssay`, set `rescaleWeightsAfter=FALSE` by default
+
+# dreamlet 1.1.22
+ - May 14, 2024
+ - fix issue in `topTable()` with multiple `coef` values
+
+# dreamlet 1.1.21
+  - fix issue in  `run_mash()` with multiple coefficients
+     - from https://github.com/GabrielHoffman/dreamlet/issues/18
+
+# dreamlet 1.1.20
+  - in `dreamlet()` allow formula to include only intercept
+
+# dreamlet 1.1.19
+  - bug fix in `compositePosteriorTest()`
+
 # dreamlet 1.1.18
   - bug fix
 
